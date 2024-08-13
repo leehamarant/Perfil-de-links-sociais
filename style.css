@@ -1,0 +1,65 @@
+@font-face {
+    font-family: inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    font-family: "Poppins";
+    background-image:  url('assets/images/image.jpg');
+    color: white;
+    font-family: inter;
+    display: flex;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.container {
+    font-family: "Poppins";
+    margin: auto;
+    margin-top: 6em;
+    background-color:#06394d ;
+    padding: 20px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+img {
+    border-radius: 50%;
+    width: 5.5em;
+}
+
+h2 {
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.loc {
+    font-size: 10px;
+    color:#eaa109;
+    font-weight: 600;
+    margin-top: 5px;
+    font-size: small;
+}
+.front {
+    font-family: "Poppins";
+    margin: 30px;
+    font-weight: 20px;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.botao {
+    display: block;
+    background-color: #000;
+    padding: 12px;
+    border-radius: 7px;
+    font-weight: 700;
+}
